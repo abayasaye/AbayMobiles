@@ -19,7 +19,7 @@ console.log(getDataFunc())
 
 
 function printIdsFunc () {
-    clic_print.disabled = true;
+    // clic_print.disabled = true;
     load_div.innerHTML = `<img style='width:10vw' src ='/IMAGES/load.gif'/>.`
     getDataFunc()
     .then((data)=>{
@@ -33,7 +33,7 @@ function printIdsFunc () {
         alert(`page not found : ${error}`)
     })
     .finally(()=>{
-        clic_print.disabled = false;
+        // clic_print.disabled = false;
         load_div.innerHTML = " "
     })
 
