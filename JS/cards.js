@@ -20,12 +20,12 @@ console.log(getDataFunc())
 
 function printIdsFunc () {
     // clic_print.disabled = true;
-    load_div.innerHTML = `<img style='width:10vw' src ='/IMAGES/load.gif'/>.`
+    load_div.innerHTML = `<img class='position-absolute top-50 start-50' style='width:10vw;background:none;' src ='/IMAGES/loading.gif'/>.`
     getDataFunc()
     .then((data)=>{
         data.forEach(item => {
-            
-            colect_div.innerHTML +=`<div style='font-size:1.5rem;color:#ebfafd; background:#aeccfb;' class='card my-5 col-lg-4 col-sm-'> <div> <img class='card-img' src = '${IMG_API}'/></div><br>price : ${item.price}$<br>isAvailable : ${item.isAvailable}<br>createdAt : ${item.createdAt}<br>color : ${item.color}<br>brand : ${item.brand}<br>ram : ${item.ram}G<br></div> <br>`
+            // #aeccfb 
+            colect_div.innerHTML +=`<div style='font-size:1.5rem;color:#79798a; background: none;' class='card my-5 col-lg-4 col-sm-'> <div> <img class='card-img' src = '${IMG_API}'/></div><br>price : ${item.price}$<br>isAvailable : ${item.isAvailable}<br>createdAt : ${item.createdAt}<br>color : ${item.color}<br>brand : ${item.brand}<br>ram : ${item.ram}G<br></div> <br>`
        
         });
     })

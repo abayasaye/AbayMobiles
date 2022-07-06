@@ -1,5 +1,7 @@
 body{
     text-align: center;
+    background: url("https://cdn.dribbble.com/users/2293589/videos/28099/shotiot.mp4.mp4") no-repeat;
+    background-size: cover;
 }
 #colect_div{
     
@@ -34,10 +36,10 @@ body{
 #main{
 
 }
-#footer{
+/* #footer{
     background-color: #5c78d7;
     bottom: 0;
-}
+} */
 #logo{
     position:relative;
     border-radius: 50%;

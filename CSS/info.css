@@ -5,8 +5,8 @@ body{
 }
 #header{
     background-color: #AECCFB; 
-    position:sticky;
-    top: 0;  
+    /* position:sticky;
+    top: 0;   */
 }
 /* @media screen and (min-width:768px) {
    #header{
@@ -31,10 +31,10 @@ body{
 #main{
 
 }
-#footer{
-    background-color: #5c78d7;
-    bottom: 0;
+#table_Id{
+    border: 1px solid black;
 }
+
 #logo{
     position:relative;
     border-radius: 50%;
@@ -44,41 +44,33 @@ body{
 box-shadow: #3A5BA0;
     box-shadow: 5px 10px 30px;
 }
-#mob-top{
-    width: 50vw;
-}
-#box{
-    background-color: aliceblue;
-    width: 200px;
-    height: 200px;
-}
-#tab{
-    width: 10%;
-}
-#change_color{
-    animation:changeColor 3s infinite alternate ;
-}
-@keyframes changeColor {
-    30%{
-        background-image:url(/IMAGES/mobile2.png);
-        background-size: 100% 100%;
-    }
-    50%{
-        background-image: url(/IMAGES/mobile.png);
-        background-size: 100% 100%;
-    }
-    100%{
-        background-image: url(/);
-        background-size: 100% 100%;
-    }
-}
+
+
 footer{
     text-align: center;
 }
 .social-icon{
     width:10%;
 }
-#head_title{
-    color:#3d3a40;
-    font-family: 'Neue Kabel';
+
+@media only screen and (max-width:768px) {
+    #table_Id{
+        display: block;
+    }
+    #table_Id thead tr {
+        position: absolute;
+        left:0;
+    }
+    #table_Id td {
+        position: relative;
+        padding-left: 50%;
+    }
+    #table_Id td:before{
+        content: attr(data-title);
+        position: absolute;
+        left: 6px;
+        font-weight: bold;
+    }
+
+
 }
