@@ -4,7 +4,7 @@ body{
     background-size: cover;
 }
 #header{
-    background-color: #AECCFB; 
+    background-color: #aecbfb; 
     position:sticky;
     top: 0;  
 }
@@ -80,5 +80,15 @@ footer{
 }
 #head_title{
     color:#3d3a40;
-    font-family: 'Neue Kabel';
+    font-family: 'Montserrat', sans-serif;
+    line-break: normal;
+}
+
+#icon_name{
+    font-family: 'Ubuntu', sans-serif;  
+}
+#bbbbb{
+
+    border-radius: 50%;
+    width: 25%;
 }
