@@ -19,13 +19,22 @@ console.log(getUserDataFunc())
 
 
 function printUserDataFunc () {
-    load_div.innerHTML = `<img class='position-absolute top-50 start-50' style='width:20vw;background:none;' src ='/IMAGES/loading.gif'/>.`
+    load_div.innerHTML = `<img style='width:20vw;margin:0 auto;' src ='/IMAGES/loading.gif'/>.`
     getUserDataFunc()
     .then((res)=>{
         res.forEach(item => {
             // #aeccfb 
             // table_Id.innerHTML += `<th>age</th><th>age</th><th>age</th><th>age</th><th>age</th><th>age</th><th>age</th><th>age</th>`
-            tbody_id.innerHTML +=`<tr><td data-title='age'>${item.age}</td><td data-title='email'>${item.email}</td> <td data-title='index'>${item.index}</td> <td data-title='firstName'>${item.name.first}</td> <td data-title='lastName'>${item.name.last}</td> <td data-title='phone'>${item.phone}</td> <td data-title='id'>${item._id}</td> <td data-title='picture'><img src = '${item.picture}'/></td></tr>`
+            tbody_id.innerHTML +=`<tr>
+            <td data-title='age'>${item.age}</td>
+            <td data-title='email'>${item.email}</td> 
+            <td data-title='index'>${item.index}</td> 
+            <td data-title='firstName'>${item.name.first}</td> 
+            <td data-title='lastName'>${item.name.last}</td> 
+            <td data-title='phone'>${item.phone}</td> 
+            <td data-title='id'>${item._id}</td> 
+            <td data-title='picture'><img src = '${item.picture}'/></td></tr>
+            <button type="button" class="btn btn-light btn-lg mx-5">delete</button>`
         });
     })
     .catch((err)=>{
