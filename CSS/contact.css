@@ -1,7 +1,7 @@
 body{
+    background: linear-gradient(135deg, #ebfafd 60%, #aeccfb);
     text-align: center;
-    background: url("https://cdn.dribbble.com/users/2293589/videos/28099/shotiot.mp4.mp4") no-repeat;
-    background-size: cover;
+
 }
 #header{
     background-color: #5c78d7; 
@@ -15,8 +15,9 @@ body{
 } */
 .container-fluid{
     text-align: center;
+
 }
-#background-video{
+/* #background-video{
     width: 100vw;
     height: 100vh;
     object-fit: cover;
@@ -26,7 +27,7 @@ body{
     top: 0;
     bottom: 0;
     z-index: -1;
-}
+} */
 
 /* #main{
 background-color: #AECCFB;
@@ -44,31 +45,11 @@ box-shadow: #3A5BA0;
 #mob-top{
     width: 50vw;
 }
-#box{
-    background-color: aliceblue;
-    width: 200px;
-    height: 200px;
-}
+
 #tab{
     width: 10%;
 }
-#change_color{
-    animation:changeColor 3s infinite alternate ;
-}
-@keyframes changeColor {
-    30%{
-        background-image:url(/IMAGES/mobile2.png);
-        background-size: 100% 100%;
-    }
-    50%{
-        background-image: url(/IMAGES/mobile.png);
-        background-size: 100% 100%;
-    }
-    100%{
-        background-image: url(/);
-        background-size: 100% 100%;
-    }
-}
+
 #footer{
     /* text-align: center; */
     bottom: 0;
@@ -76,7 +57,23 @@ box-shadow: #3A5BA0;
 .social-icon{
     width:15%;
 }
-#head_title{
+/* #head_title{
     color:#3d3a40;
     font-family: 'Neue Kabel';
+} */
+
+form{
+    background: linear-gradient(135deg, #ebfafd 60%, #aeccfb);
+    font-family: 'Ubuntu', sans-serif;  
+    border-radius: 4px solid black;
+    font-size: 15px;
+
+}
+
+#submit_btn{
+    padding:10px;
+    margin-top: 10px;
+    width:25%;
+    border-radius:12px;
+    background:orange;
 }
