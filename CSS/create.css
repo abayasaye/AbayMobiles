@@ -1,11 +1,16 @@
 body{
+    text-align: center;
     background: url("https://cdn.dribbble.com/users/2293589/videos/28099/shotiot.mp4.mp4") no-repeat;
     background-size: cover;
 }
 #header{
     background-color: #5c78d7; 
-    position:sticky;
-    top: 0;  
+    /* position:sticky;
+    top: 0;   */
+}
+.container-fluid{
+    text-align: center;
+    
 }
 #background-video{
     width: 100vw;
@@ -29,7 +34,7 @@ body{
 #logo{
     position:relative;
     border-radius: 50%;
-    width:25%;
+    width:20%;
 }
 #logo:hover{
 box-shadow: #3A5BA0;
