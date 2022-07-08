@@ -55,7 +55,13 @@ box-shadow: #3A5BA0;
     box-shadow: 5px 10px 30px;
 }
 #mob-top{
-    width: 50vw;
+    width: 30vw;
+    border-radius: 5%;
+    opacity: 0.9;
+}
+.images_con {
+    background: linear-gradient(#d5f8f9, hsl(210, 50%, 99%) 60%, #89afed);
+
 }
 #box{
     background-color: aliceblue;
@@ -87,14 +93,20 @@ box-shadow: #3A5BA0;
     width:15%;
 }
 #head_title{
-    color:#3d3a40;
+    background: linear-gradient(135deg, #ebfafd 60%, #aeccfb);
+    /* color:#3d3a40; */
     font-family: 'Montserrat', sans-serif;
-    line-break: normal;
-    font-size:100px;
+    line-break:loose;
 }
 
 #icon_name{
-    font-family: 'Ubuntu', sans-serif;  
+    font-family: 'Ubuntu', sans-serif; 
+
+}
+#h1_heading{
+    font-weight:900;
+    line-height: 1.2;
+    
 }
 #bbbbb{
 
@@ -107,3 +119,22 @@ box-shadow: #3A5BA0;
  
     }
 } */
+@media only screen and (min-width: 768px){
+
+    .global-p {
+        width: 100%;
+        line-break: loose;
+    }
+
+}
+#bottom_div{
+    background-image: linear-gradient(rgba(f,f,f,f.6),rgba(f,f,f,f.6)),url(../ABAYSMOBILES/IMAGES/colect-phones.jpg);
+    background-color: #5b5b5b;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  
+}
+#midle_container{
+    font-family: 'Ubuntu', sans-serif; 
+
+}
