@@ -19,7 +19,7 @@ console.log(getUserDataFunc())
 
 
 function printUserDataFunc () {
-    load_div.innerHTML = `<img style='width:20vw;margin:0 auto;' src ='/IMAGES/loading.gif'/>.`
+    load_div.innerHTML = `<img class='position-absolute top-50 start-50' style='width:10vw;margin:0 auto;' src ='/IMAGES/loading.gif'/>.`
     getUserDataFunc()
     .then((res)=>{
         res.forEach(item => {
