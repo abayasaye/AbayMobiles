@@ -37,7 +37,7 @@ console.log(getDataFunc())
 
 function printIdsFunc () {
     // clic_print.disabled = true;
-    load_div.innerHTML = `<img class='position-absolute top-50 start-50' style='width:10vw;background:none;' src ='/IMAGES/loading.gif'/>.`
+    load_div.innerHTML = `<img class='position-absolute top-50 start-50' style='width:10vw;background:none;' src ='../IMAGES/loading.gif'/>.`
     getDataFunc()
     .then((data)=>{
         data.forEach((item,index)=> {
