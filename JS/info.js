@@ -1,5 +1,5 @@
 const BASIC_API = "https://my-json-server.typicode.com/Jeck99/fake-server/users"
-const IMG_API = "/IMAGES/userPic.png"
+// const IMG_API = "/IMAGES/userPic.png"
 const usersPicturesArr= [
   "https://img.freepik.com/free-photo/pleasant-looking-serious-man-stands-profile-has-confident-expression-wears-casual-white-t-shirt_273609-16959.jpg?w=2000",
   "https://play-lh.googleusercontent.com/I-Yd5tJnxw7Ks8FUhUiFr8I4kohd9phv5sRFHG_-nSX9AAD6Rcy570NBZVFJBKpepmc",
@@ -36,7 +36,7 @@ console.log(getUserDataFunc())
 
 
 function printUserDataFunc () {
-    load_div.innerHTML = `<img class='position-absolute top-50 start-50' style='width:10vw;margin:0 auto;' src ='/IMAGES/loading.gif'/>.`
+    load_div.innerHTML = `<img class='position-absolute top-50 start-50' style='width:10vw;margin:0 auto;' src ='../IMAGES/loading.gif'/>.`
     getUserDataFunc()
     .then((res)=>{
         res.forEach((item,index)=> {
