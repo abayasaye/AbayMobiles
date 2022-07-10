@@ -78,3 +78,10 @@ form{
     border-radius:12px;
     background:orange;
 }
+#backTop_icon{
+    width: 6vh;
+}
+.bacTop_text{
+    text-decoration: none;
+    color: black;
+}

@@ -36,7 +36,7 @@
     <header id="header">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-dark">
-          <a class="w-50 d-flex  navbar-brand" href="../index.html"
+          <a class="w-50 d-flex navbar-brand" href="../index.html"
             ><img src="../IMAGES/logo.png" alt="" id="logo"
           /></a>
           <button
@@ -59,7 +59,7 @@
                 <a class="nav-link" href="../index.html">Home-Page</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../HTML/cards.html">Cards</a>
+                <a class="nav-link" href="../HTML/store.html">Cards</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="../HTML/information.html"
@@ -73,7 +73,7 @@
                 <a class="nav-link" href="../HTML/about.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../HTML/contact.html">Contact-Us</a>
+                <a class="nav-link " href="../HTML/contact.html">Contact-Us</a>
               </li>
             </ul>
           </div>
@@ -83,35 +83,46 @@
 
     <main id="main">
       <div class="container-fluid">
-        <form action="" id="form_post" onsubmit="saveMovieFunc(event)">
+        <form class="form-group" action="" id="form_post" onsubmit="saveUserFunc()">
           <h1>AbayMobiles</h1>
-          <h2>PLEASE FILL THIS FORM</h2>
-          <h3>and become one of our clintes</h3>
+          <h2>please fill this form</h2>
+          <h3>to become one of our clintes</h3>
 
           <label for=""></label>
           <br />
-          <input id="img_id" type="text" placeholder="" />
+          <input class="" id="age_input" type="number" placeholder="age" />
           <br /><br />
           <label for=""></label>
           <br />
-          <input id="link_id" type="text" placeholder="" />
+          <input id="link_id" type="email" placeholder="eamail" />
           <br /><br />
           <label for=""></label>
           <br />
-          <input id="movie_name_id" type="text" placeholder="" />
+          <input id="index_input" type="text" placeholder="index" />
           <br /><br />
           <label for=""></label>
           <br />
-          <input id="rating_id" type="text" placeholder="" />
+          <input id="first_input" type="text" placeholder="firstName" />
+          <br /><br />
+
+          <label for=""></label>
+          <br />
+          <input id="last_input" type="text" placeholder="lastName" />
+          <br /><br />
+
+          <label for=""></label>
+          <br />
+          <input id="phone_input" type="tel" placeholder="phone" />
           <br /><br />
           <label for=""></label>
           <br />
-          <input
-            id="synop_id"
-            type="text"
-            placeholder=""
-          />
+          <input id="id_input" type="text" placeholder="id" />
           <br /><br />
+          <label for=""></label>
+          <br>
+          <input id="img_input" type="text" placeholder="img src" />
+          <br /><br />
+
           <!-- <label for="">SEARCH</label>
       <br /> -->
           <!-- <input
@@ -125,19 +136,27 @@
         </form>
       </div>
     </main>
+    <div class="mt-5 d-flex justify-content-around">
+      <a class="bacTop_text" href="#"
+        ><img id="backTop_icon" src="../IMAGES/back_top" alt="" />backTop</a
+      >
+    </div>
     <footer id="footer">
       <div class="container-fluid sticky-bottom">
         <p>© Copyright AbayMobiles</p>
         <div class="d-flex justify-content-around align-items-center">
-          <a href="#"
-            ><img class="social-icon" src="../IMAGES/linkedin.png" alt=""
-          /></a>
-          <a href="#"
-            ><img class="social-icon" src="../IMAGES/github.png" alt=""
-          /></a>
-          <a href="#"
-            ><img class="social-icon" src="../IMAGES/twitter.png" alt=""
-          /></a>
+          <a href="https://www.linkedin.com/feed/" target="_blank"
+          ><img
+            class="social-icon"
+            src="../IMAGES/linkedin.png"
+            alt=""
+        /></a>
+        <a href="https://github.com/" target="_blank"
+          ><img class="social-icon" src="../IMAGES/github.png" alt=""
+        /></a>
+        <a href="https://twitter.com/" target="_blank"
+          ><img class="social-icon" src="../IMAGES/twitter.png" alt=""
+        /></a>
         </div>
       </div>
     </footer>

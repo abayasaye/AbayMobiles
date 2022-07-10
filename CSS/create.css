@@ -61,3 +61,10 @@ box-shadow: #3A5BA0;
 .social-icon{
     width:15%;
 }
+#backTop_icon{
+    width: 6vh;
+}
+.bacTop_text{
+    text-decoration: none;
+    color: black;
+}

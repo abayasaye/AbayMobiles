@@ -58,7 +58,7 @@ footer{
     width:15%;
 }
 
-@media only screen and (max-width:768px) {
+/* @media only screen and (max-width:768px) {
     thead, tfoot {
         display: none;
       }
@@ -80,4 +80,12 @@ footer{
       td[data-colname="Guardian"]::before {
         content: "Guardian :";
       }
+} */
+
+#backTop_icon{
+    width: 6vh;
+}
+.bacTop_text{
+    text-decoration: none;
+    color: black;
 }

@@ -2,6 +2,7 @@ body{
     text-align: center;
     background: url("https://cdn.dribbble.com/users/2293589/videos/28099/shotiot.mp4.mp4") no-repeat;
     background-size: cover;
+
 }
 #header{
     background-color: #5c78d7; 
@@ -9,11 +10,7 @@ body{
     top: 0;  
     z-index: 1;
 }
-/* @media screen and (min-width:768px) {
-   #header{
-    opacity: 0.8;
-   }
-} */
+
 .container-fluid{
     text-align: center;
 }
@@ -28,10 +25,6 @@ body{
     bottom: 0;
     z-index: -1;
 }
-
-/* #main{
-background-color: #AECCFB;
-} */
 
 #logo{
     position:relative;
@@ -53,25 +46,9 @@ box-shadow: #3A5BA0;
 #tab{
     width: 10%;
 }
-#change_color{
-    animation:changeColor 3s infinite alternate ;
-}
-@keyframes changeColor {
-    30%{
-        background-image:url(/IMAGES/mobile2.png);
-        background-size: 100% 100%;
-    }
-    50%{
-        background-image: url(/IMAGES/mobile.png);
-        background-size: 100% 100%;
-    }
-    100%{
-        background-image: url(/);
-        background-size: 100% 100%;
-    }
-}
+
 #footer{
-    /* text-align: center; */
+    text-align: center;
     bottom: 0;
 }
 .social-icon{
@@ -80,4 +57,25 @@ box-shadow: #3A5BA0;
 #head_title{
     color:#3d3a40;
     font-family: 'Neue Kabel';
+}
+#backTop_icon{
+    width: 6vh;
+}
+.bacTop_text{
+    text-decoration: none;
+    color: black;
+}
+#title_about{
+    font-family: 'Ubuntu', sans-serif; 
+    line-break:normal;
+    line-height: 2;
+    width: 50vw;
+
+}
+#company_p{
+    font-family: 'Ubuntu', sans-serif; 
+    line-break:normal;
+    line-height: 2;
+    width: 50vw;
+
 }

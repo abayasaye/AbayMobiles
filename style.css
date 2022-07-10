@@ -128,14 +128,15 @@ box-shadow: #3A5BA0;
     }
 
 }
-#bottom_div{
-    background-image: linear-gradient(rgba(f,f,f,f.6),rgba(f,f,f,f.6)),url(../ABAYSMOBILES/IMAGES/colect-phones.jpg);
-    background-color: #5b5b5b;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-  
-}
+
 #midle_container{
     font-family: 'Ubuntu', sans-serif; 
 
+}
+#backTop_icon{
+    width: 6vh;
+}
+.bacTop_text{
+    text-decoration: none;
+    color: black;
 }
