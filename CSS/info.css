@@ -9,11 +9,7 @@ body{
     top: 0;  
     z-index: 1;
 }
-/* @media screen and (min-width:768px) {
-   #header{
-    opacity: 0.8;
-   }
-} */
+
 .container-fluid{
     text-align: center;
 }
