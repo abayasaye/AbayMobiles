@@ -1,19 +1,19 @@
-body{
+body {
     text-align: center;
     background: url("https://cdn.dribbble.com/users/2293589/videos/28099/shotiot.mp4.mp4") no-repeat;
     background-size: cover;
 }
-#header{
+#header {
     background-color: #5c78d7;  
     position:sticky;
     top: 0;  
     z-index: 1;
 }
 
-.container-fluid{
+.container-fluid {
     text-align: center;
 }
-#background-video{
+#background-video {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
@@ -28,22 +28,22 @@ body{
 /* #main{
 
 } */
-#table_Id{
+#table_Id {
     border: 1px solid black;
     background: #AECCFB;
     
 }
 
-#logo{
+#logo {
     position:relative;
     border-radius: 50%;
     width:20%;
 }
-#logo:hover{
+#logo:hover {
 box-shadow: #3A5BA0;
     box-shadow: 5px 10px 30px;
 }
-#mob-top{
+#mob-top {
     width: 50vw;
 }
 
