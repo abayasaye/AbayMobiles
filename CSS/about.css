@@ -4,7 +4,7 @@ body{
     background-size: cover;
 
 }
-#header{
+#header {
     background-color: #5c78d7; 
     position:sticky;
     top: 0;  
@@ -26,7 +26,7 @@ body{
     z-index: -1;
 }
 
-#logo{
+#logo {
     position:relative;
     border-radius: 50%;
     width:20%;

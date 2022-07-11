@@ -1,9 +1,9 @@
-body{
+body {
     background: linear-gradient(135deg, #ebfafd 60%, #aeccfb);
     text-align: center;
 
 }
-#header{
+#header {
     background-color: #5c78d7; 
     position:sticky;
     top: 0;  
@@ -14,7 +14,7 @@ body{
     opacity: 0.8;
    }
 } */
-.container-fluid{
+.container-fluid {
     text-align: center;
 
 }
