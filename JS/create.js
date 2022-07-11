@@ -1,4 +1,4 @@
-const BASIC_API = "https://my-json-server.typicode.com/Jeck99/fake-server/users"
+const BASIC_API = "htthjgfdfghjps://my-json-server.typicode.com/Jeck99/fake-server/users"
 
 // async function addUserFunc () {
 //     try {

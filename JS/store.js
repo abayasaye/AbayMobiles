@@ -1,5 +1,5 @@
 const BASIC_API = "https://my-json-server.typicode.com/Jeck99/fake-server/devices"
-let phonesArray = [
+let phonesArray =  [
     "1phone.png",
     "2phone.png",
     "3phone.png",
@@ -15,7 +15,7 @@ let phonesArray = [
     "13phone.png",
     "14phone.png",
     "15phone.png"
-]
+ ]
 // const IMG_API = "https://marketingaccesspass.com/wp-content/uploads/2019/09/img_mobile-768x621.png"
 async function getDataFunc() {
     try {
