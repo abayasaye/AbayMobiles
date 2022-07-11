@@ -13,8 +13,8 @@ const BASIC_API = "htthjgfdfghjps://my-json-server.typicode.com/Jeck99/fake-serv
 //     }
 // }
 
-async function saveUserFunc () {
-    const theNewUser =  {
+async function saveUserFunc  ()  {
+    const  theNewUser =  {
         user: {
 
             age:age_input.value,
@@ -32,7 +32,7 @@ async function saveUserFunc () {
     }
     try {
         
-        await fetch(`${BASIC_API}`,
+        await fetch (`${BASIC_API}`,
         {
             method:"POST",
             body:JSON.stringify(theNewUser),
